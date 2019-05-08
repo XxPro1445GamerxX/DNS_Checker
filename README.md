@@ -4,6 +4,7 @@ Purpose:
 Checks if you have a connection to the internet by checking for the D.N.S. connection to google  
 
 Requirments:
+
 pip install schedule 
 
 pip install pyttsx3
