@@ -14,10 +14,6 @@ def button():
     equalButton = Button(root, text="Press")
     equalButton.bind('<Button-1>', entire1)
     equalButton.pack()
-
-    sumEntry = Entry(root)
-    sumEntry.pack()
-
     root.mainloop()
 def entire():
     print('This wil check every 30 seconds\nPress Ctrl C to exit')
